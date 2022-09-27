@@ -13,3 +13,4 @@ cpp-hello-world
 - [ ] [FASTBuild](https://www.fastbuild.org/docs/home.html)
 - [x] [The Meson Build system](https://mesonbuild.com/)
 - [ ] Autotools
+  - [autoconf/automake最快速使用 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1407468)
