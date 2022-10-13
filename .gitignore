@@ -1,3 +1,7 @@
 /build-mingw32-make
 /build-ninja
 /build
+/bazel-bin
+/bazel-cpp-hello-world
+/bazel-out
+/bazel-testlogs

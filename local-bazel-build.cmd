@@ -5,19 +5,16 @@ REM run as Administrator
 @echo off
 
 cd /d %~dp0
-@REM set DOWNLOAD_DIR=%USERPROFILE%\Downloads
-@REM set DOWNLOAD_DIR_LINUX=%DOWNLOAD_DIR:\=/%
-@REM SET PATH=^
-@REM %DOWNLOAD_DIR%\PortableGit\bin;^
-@REM %DOWNLOAD_DIR%\x86_64-8.1.0-release-win32-seh-rt_v6-rev0;^
-@REM %DOWNLOAD_DIR%\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\bin;^
-@REM %DOWNLOAD_DIR%\cmake-3.22.2-windows-x86_64\bin;^
+set BAZEL_SH=D:\Softwares\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\bin\bash;
 
 set PATH=^
 D:\Softwares\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64;^
 D:\Softwares\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin;^
 D:\Softwares\bazel-5.2.0-windows-x86_64;
-@REM --compiler=mingw-gcc
-bazel build --config=clang_config //src:main &&^
+
+bazel query @local_config_cc//:toolchain --output=build
+pause
+bazel build --compiler=mingw-gcc //src:main --verbose_failures &&^
 echo "Successful build"
 pause
+
