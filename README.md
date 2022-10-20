@@ -12,6 +12,7 @@ cpp-hello-world
   - ~seems to have a lot work writing toolchain file for mingw64(x86_64-8.1.0-release-posix-seh-rt_v6-rev0)~
     - UPDATE
       - [Configuring Bazel Build With GNU C/C++ on Windows | by Igor Machado | The Startup | Medium](https://medium.com/swlh/configuring-bazel-build-with-gnu-c-c-on-windows-e27b2c66bed6)
+        - [igormcoelho-learning/config-bazel-c-cpp-gnu-windows](https://github.com/igormcoelho-learning/config-bazel-c-cpp-gnu-windows)
     - UPDATE (14 Oct 2022)
       - it works, steps:
         1. create a file name `bash` (no extension) to `D:\Softwares\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin` to pretend a bash executable
