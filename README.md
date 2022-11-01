@@ -24,6 +24,8 @@ cpp-hello-world
           /D/Softwares/PortableGit-2.35.1.2-64-bit/git-bash.exe {0}
           ```
         2. Be aware of the intended wrong path `set BAZEL_SH=D:\Softwares\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\bin\bash;
+      - UPDATE (1 Nov 2022)
+        1. [dirkarnez/bazel-msys2-mingw64](https://github.com/dirkarnez/bazel-msys2-mingw64)
 ` in `./local-bazel-build.cmd`. **This is a workaround (omitting `mingw64` part in this path) for bazel bug**
 - [ ] [FASTBuild](https://www.fastbuild.org/docs/home.html)
 - [x] [The Meson Build system](https://mesonbuild.com/)
