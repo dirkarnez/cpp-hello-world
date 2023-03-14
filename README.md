@@ -32,3 +32,5 @@ cpp-hello-world
 - [x] [The Meson Build system](https://mesonbuild.com/)
 - [ ] Autotools
   - [autoconf/automake最快速使用 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1407468)
+- [ ] Scons
+  - https://scons.org/doc/2.3.0/HTML/scons-user/c258.html#AEN263
