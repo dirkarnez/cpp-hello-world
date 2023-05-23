@@ -29,7 +29,12 @@ cpp-hello-world
           - `.\msys2_shell.cmd C:\Users\Administrator\Downloads\cpp-hello-world\local-bazel-build.sh`
 ` in `./local-bazel-build.cmd`. **This is a workaround (omitting `mingw64` part in this path) for bazel bug**
 - [ ] [FASTBuild](https://www.fastbuild.org/docs/home.html)
-- [x] [The Meson Build system](https://mesonbuild.com/)
+- [x] [The Meson Build system](https://mesonbuild.com/)\
+  - https://github.com/mpv-player/mpv/blob/a1a2e27f84bef17b50fd7f5cca7e50bbad1f92d0/ci/build-macos.sh
+- [ ] Msys
+  - https://github.com/mpv-player/mpv/blob/a1a2e27f84bef17b50fd7f5cca7e50bbad1f92d0/ci/build-msys2.sh
+- [ ] MinGW64
+  - https://github.com/mpv-player/mpv/blob/a1a2e27f84bef17b50fd7f5cca7e50bbad1f92d0/ci/build-mingw64.sh
 - [ ] Autotools
   - [autoconf/automake最快速使用 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1407468)
 - [ ] Scons
