@@ -37,5 +37,6 @@ cpp-hello-world
   - https://github.com/mpv-player/mpv/blob/a1a2e27f84bef17b50fd7f5cca7e50bbad1f92d0/ci/build-mingw64.sh
 - [ ] Autotools
   - [autoconf/automake最快速使用 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1407468)
+  - [LeisureLinux/autotools: GNU Make autotools demo](https://github.com/LeisureLinux/autotools)
 - [ ] Scons
   - https://scons.org/doc/2.3.0/HTML/scons-user/c258.html#AEN263
