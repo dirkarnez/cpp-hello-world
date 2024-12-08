@@ -38,5 +38,8 @@ cpp-hello-world
 - [ ] Autotools
   - [autoconf/automake最快速使用 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1407468)
   - [LeisureLinux/autotools: GNU Make autotools demo](https://github.com/LeisureLinux/autotools)
+  - alocal `.m4` code generation
+    - [Linux aclocal Command with Practical Examples | LabEx](https://labex.io/tutorials/linux-linux-aclocal-command-with-practical-examples-422536)
+    - [Local Macros (automake)](https://www.gnu.org/software/automake/manual/html_node/Local-Macros.html)
 - [ ] Scons
   - https://scons.org/doc/2.3.0/HTML/scons-user/c258.html#AEN263
