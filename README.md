@@ -8,6 +8,7 @@ cpp-hello-world
     - [GN (Generate Ninja) 使用入門](https://blog.simplypatrick.com/posts/2016/01-23-gn/)
 - [ ] [GYP - Generate Your Projects.](https://gyp.gsrc.io/)
 - [x] [Bazel](https://bazel.build/), WIP
+  - [bazel-链接第三方动态库，静态库。 - suonikeyinsu - 博客园](https://www.cnblogs.com/black-mamba/p/9834665.html)
   - does not support paths with spaces
   - ~seems to have a lot work writing toolchain file for mingw64(x86_64-8.1.0-release-posix-seh-rt_v6-rev0)~
     - UPDATE
