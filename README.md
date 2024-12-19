@@ -42,5 +42,9 @@ cpp-hello-world
   - alocal `.m4` code generation
     - [Linux aclocal Command with Practical Examples | LabEx](https://labex.io/tutorials/linux-linux-aclocal-command-with-practical-examples-422536)
     - [Local Macros (automake)](https://www.gnu.org/software/automake/manual/html_node/Local-Macros.html)
+  - ```cpp
+    /* libplatform/config.h.  Generated from config.h.in by configure.  */
+    /* libplatform/config.h.in.  Generated from configure.ac by autoheader.  */
+    ```
 - [ ] Scons
   - https://scons.org/doc/2.3.0/HTML/scons-user/c258.html#AEN263
