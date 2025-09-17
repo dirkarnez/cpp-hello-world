@@ -39,6 +39,9 @@ cpp-hello-world
 - [ ] Autotools
   - [autoconf/automake最快速使用 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1407468)
   - [LeisureLinux/autotools: GNU Make autotools demo](https://github.com/LeisureLinux/autotools)
+  - [How to use autotools (automake, autoconf, aclocal, autoheader) - YouTube](https://www.youtube.com/watch?v=3XO0d9Qyc34)
+  - [Introduction to the Autotools, part 1 - YouTube](https://www.youtube.com/watch?v=4q_inV9M_us)
+  - [Introduction to the Autotools, part 2 - YouTube](https://www.youtube.com/watch?v=tku2h_fPxhc)
   - alocal `.m4` code generation
     - [Linux aclocal Command with Practical Examples | LabEx](https://labex.io/tutorials/linux-linux-aclocal-command-with-practical-examples-422536)
     - [Local Macros (automake)](https://www.gnu.org/software/automake/manual/html_node/Local-Macros.html)
