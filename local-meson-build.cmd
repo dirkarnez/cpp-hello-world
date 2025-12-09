@@ -8,7 +8,7 @@ cd /d %~dp0
 @REM %DOWNLOAD_DIR%\PortableGit\bin;^
 @REM %DOWNLOAD_DIR%\x86_64-8.1.0-release-win32-seh-rt_v6-rev0;^
 @REM %DOWNLOAD_DIR%\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\bin;^
-@REM %DOWNLOAD_DIR%\cmake-3.22.2-windows-x86_64\bin;^
+@REM %DOWNLOAD_DIR%\cmake-3.29.3-windows-x86_64\cmake-3.29.3-windows-x86_64\bin;^
 
 set PATH=^
 D:\Softwares\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64;^

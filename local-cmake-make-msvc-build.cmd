@@ -14,7 +14,7 @@ SET PATH=^
 %MSVC%\2022\BuildTools\Common7\IDE\VC\VCPackages;^
 %MSVC%\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\TestWindow;^
 %MSVC%\2022\BuildTools\MSBuild\Current\bin\Roslyn;^
-%MSVC%\2022\BuildTools\\MSBuild\Current\Bin\amd64;^
+%MSVC%\2022\BuildTools\MSBuild\Current\Bin\amd64;^
 %MSVC%\2022\BuildTools\Common7\IDE\;^
 %MSVC%\2022\BuildTools\Common7\Tools\;^
 C:\Windows\system32;^
@@ -23,7 +23,7 @@ C:\Windows\System32\Wbem;^
 C:\Windows\System32\WindowsPowerShell\v1.0\;^
 C:\Windows\System32\OpenSSH\;^
 %MSVC%\2022\BuildTools\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;^
-%DOWNLOADS_DIR%\cmake-3.25.0-windows-x86_64\bin;
+%DOWNLOADS_DIR%\cmake-3.29.3-windows-x86_64\cmake-3.29.3-windows-x86_64\bin;
 
 
 @REM set PATH=^
