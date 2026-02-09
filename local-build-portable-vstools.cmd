@@ -11,6 +11,7 @@ SET PATH=^
 %DOWNLOADS_DIR%\cmake-3.29.3-windows-x86_64\cmake-3.29.3-windows-x86_64\bin;^
 %DOWNLOADS_DIR%;
 
+@REM https://github.com/Data-Oriented-House/PortableBuildTools
 set BUILD_TOOLS_ROOT=%DOWNLOADS_DIR%\BuildTools\
 set WindowsSDKDir=%BUILD_TOOLS_ROOT%Windows Kits\10
 set VCToolsInstallDir=%BUILD_TOOLS_ROOT%VC\Tools\MSVC\14.44.35207
@@ -22,7 +23,10 @@ set LIB=%VCToolsInstallDir%\lib\%VSCMD_ARG_TGT_ARCH%;%WindowsSDKDir%\Lib\%Window
 set BUILD_TOOLS_BIN=%VCToolsInstallDir%\bin\Host%VSCMD_ARG_HOST_ARCH%\%VSCMD_ARG_TGT_ARCH%;%WindowsSDKDir%\bin\%WindowsSDKVersion%\%VSCMD_ARG_TGT_ARCH%;%WindowsSDKDir%\bin\%WindowsSDKVersion%\%VSCMD_ARG_TGT_ARCH%\ucrt
 set PATH=%BUILD_TOOLS_BIN%;%PATH%;
 
+
 @REM cmake -G "Visual Studio 14 2015" -A x64 ^
+@REM "Visual Studio * 20**" requires MSBuild.exe which also requires .Net
+
 cmake -G "Ninja" ^
 -DCMAKE_MAKE_PROGRAM=ninja ^
 -DCMAKE_C_COMPILER=cl ^
